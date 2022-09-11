@@ -11,7 +11,7 @@ int main(void)
 	/*
 	 * Display a message
 	 */
-	printf("with proper grammar");
-	printf("but the outcome is a piece of art");
+	printf("with proper grammar,\n");
+	printf("but the outcome is a piece of art\n");
 	return (0);
 }
