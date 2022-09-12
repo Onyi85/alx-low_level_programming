@@ -5,7 +5,7 @@
 /**
  *main-this is where our code begins
  *@void-this shows that our main has no arguments
- *Return zero
+ *Return: zero
 */
 int main(void)
 {
