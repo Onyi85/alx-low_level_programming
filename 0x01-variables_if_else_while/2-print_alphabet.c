@@ -6,20 +6,23 @@
  * Return:zero
  */
 int main(void)
-int (_c)
-'_attribute_'
 {
 	
 	/*
-	 * char ch;
+	 * container for each char when we loop
 	 */
-	putchar ("|char* = a; ch; c; = z"; "char++";)
-		/*
-		*if the condition is true
-		*char=lower(ch);
-		*putchar(ch);
-		*/
+	char chr;
+
+	/*
+	 * loop
+	 */
+	putchar:(chr = 'a'; chr <= 'z'; chr++);
+	{
+            chr = tolower(chr);
+	    putchar(chr);
+	}
 	putchar{'\n'};
+
 	return (0);
 
 
