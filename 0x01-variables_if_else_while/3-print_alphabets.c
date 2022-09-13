@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <ctype>
+#include <ctype.h>
 /**
  * main-This where our code begins
  * @void-main takes no argument
  * Return: zero
  */
 int main(void)
-int j;
 {
 	/*
-	 * counter in the first and nested loop
-i	 */
+	* counter in the first and nested loop
+	*/
 	char chr;
 	char j;
 
@@ -21,8 +20,8 @@ i	 */
 	char upper_case_char;
 
 	/*
-	 * loop
-	 */
+	* loop
+	*/
 	for (chr = 'a'; chr <= 'z'; chr++)
 	{
 		/*
@@ -30,19 +29,21 @@ i	 */
 		 */
 		lower_case_char = tolower(chr);
 		putchar(lower_case_char);
-	}	
+	}
 		/*
 		 * convert char chr to uppercase
 		 */
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		uipperlphabets.ci3-print_alphabets.c_case_char = toupper(j);
+		upper_case_char = toupper(chr);
 		/*
 		 * print the upper case char
 		 */
 		putchar(upper_case_char);
 	}
+	
 	/*
-	 * print a newline
-	 */
+	* print a newline
+	*/
+
 }
