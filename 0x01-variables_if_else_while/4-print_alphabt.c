@@ -20,9 +20,12 @@ int main(void)
 	 * our while loop
 	 */
 	for (ch = 'a'; ch <= 'z'; ch++)
+		/*
+		 * confir
+		 */
 		if (ch != 'q' && ch != 'e')
 		/*
-		* print [f true
+		* print if true
 		*/
 	putchar('\n');
 	return (0);
