@@ -1,4 +1,4 @@
-i/* its about lowercase followed by a newline*/
+/* its about lowercase followed by a newline*/
 #include <stdio.h>
 #include <ctype.h>
 /**
@@ -22,7 +22,7 @@ int main(void)
 		chr = tolower(chr);
 		putchar(chr);
 	}
-	putchar{'\n'};
+	putchar('\n');
 
 	return (0);
 
