@@ -37,12 +37,15 @@ int main(void)
 	{
 		upper_case_char = toupper(chr);
 		/*
-		 * print the upper case char
-		 */
+		* print the upper case char
+		*/
 		putchar(upper_case_char);
 	}
-	
+
 		/*
 		* print a newline
 		*/
+	putchar('\n');
+	return (0);
 }
+
