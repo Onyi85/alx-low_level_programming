@@ -1,13 +1,16 @@
+#include <stdio.h>
+#include <ctype>
 /**
  * main-This where our code begins
  * @void-main takes no argument
  * Return: zero
  */
 int main(void)
+int j;
 {
 	/*
 	 * counter in the first and nested loop
-	 */
+i	 */
 	char chr;
 	char j;
 
