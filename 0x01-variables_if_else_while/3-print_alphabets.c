@@ -27,7 +27,7 @@ int main(void)
 		/*
 		 * convert char chr to lowercase
 		 */
-		lower_case_char = tolower(j++);
+		lower_case_char = tolower(chr);
 		putchar(lower_case_char);
 	}
 		/*
@@ -35,7 +35,7 @@ int main(void)
 		 */
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		upper_case_char = toupper(chr);
+		upper_case_char = toupper(j);
 		/*
 		* print the upper case char
 		*/
