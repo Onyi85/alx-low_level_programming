@@ -42,8 +42,7 @@ int main(void)
 		putchar(upper_case_char);
 	}
 	
-	/*
-	* print a newline
-	*/
-
+		/*
+		* print a newline
+		*/
 }
