@@ -27,7 +27,7 @@ int main(void)
 		/*
 		 * convert char chr to lowercase
 		 */
-		lower_case_char = tolower(chr);
+		lower_case_char = tolower(j++);
 		putchar(lower_case_char);
 	}
 		/*
@@ -45,7 +45,6 @@ int main(void)
 		/*
 		* print a newline
 		*/
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
-
