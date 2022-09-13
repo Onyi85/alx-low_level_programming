@@ -20,10 +20,10 @@ int main(void)
 	 * our while loop
 	 */
 	for (ch = 'a'; ch <= 'z'; ch++)
-	{
 		if (ch != 'q' && ch != 'e')
-			pilphabt.c4-print_alphabt.c4-print_alphabt.cutchar(ch);
-	}
+		/*
+		* print [f true
+		*/
 	putchar('\n');
 	return (0);
 }
