@@ -1,15 +1,14 @@
 /* 
- * this is a program prints a single character
+* this is a program prints a single character
 */                                                                                                                                                  
 #include <ctype.h>                                                                                                                                 
 #include <stdio.h>                                                                                                                                  
 #include "main.h"                                                                                                                                   
 /**                                                                                                                                                 
- * * _main entry point
- *
- * *@void: means our main function has no argument                                                                                                                        
- * *Return zero
- * */                                                                                                                                                  
+ *_main entry point
+ *@void: means our main function has no argument
+ *Return zero
+ */
 int main(void)
 {
 	/*
@@ -17,4 +16,5 @@ int main(void)
 	 */
 	print_alphabet();
 	return(0);
-	i
+	
+}
