@@ -1,0 +1,19 @@
+/*this is about a program that print _putchar*/
+#include <stdio.h>
+#include <ctype.h>
+#include <unistd.h>
+/**
+ * _putchar - Writes the character c
+ * to stdout
+ * @void: means function has no argument
+ * Return: 0
+ */
+int main (void)
+{
+	int i;
+	char ch[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+	
+	for (i = 0; i < 9; i++)
+		_putchar(ch[i]);
+	return (0);
+}
