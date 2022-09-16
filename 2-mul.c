@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
-* _mul - this function multiply 2
+* mul - this function multiply 2
 * integer
 * @a: means parameter is an int
 * @b: means parameter is an int
