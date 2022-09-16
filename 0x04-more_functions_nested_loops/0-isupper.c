@@ -6,13 +6,15 @@
 * _isupper-its checkfor uppercase
 * character
 * @c: means that parameter is an int
-* Return: 1 or c depend on
+* Return: 1 or 0 depend on
 * the lose type
 */
 int _isupper(int c)
 {
-	if (isupper(c))
+	if (c >= 'A' && c <= 'Z')
+	{
 		return (1);
-	else
+
+	}
 		return (0);
 }
