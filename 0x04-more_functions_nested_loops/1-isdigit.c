@@ -1,3 +1,6 @@
+/* its about isdigit*/
+#include <stdio.h>
+#include "main.h"
 /**
  * _isdigit-determine if digit
  *
@@ -5,9 +8,10 @@
  *
  * Return: gives boolean
  */
-int_isdigit(int c)
+int _isdigit(int c)
 {
-	if (c >= 'o' && c <= '9')
+	if (c >= '0' && c <= '9')
 		return (1);
-	return (0);
+	else
+		return (0);
 }
