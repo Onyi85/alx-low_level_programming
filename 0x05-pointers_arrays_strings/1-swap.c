@@ -1,7 +1,7 @@
 /* this is about pointers array and strings */
 #include "main.h"
 /**
- * swap_int a program prepared about pointers
+ * swap_int- a program prepared about pointers
  * array and integer
  * @a:a pointer tob integer
  * @b:pointer to integer
