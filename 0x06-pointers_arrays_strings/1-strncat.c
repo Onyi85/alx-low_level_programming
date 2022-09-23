@@ -4,27 +4,27 @@
 * *_strncat - This function join two string
 * @dest: pointer to char
 * @src: pointer to char
-* @n: largest largest number of bytes 
+* @n: largest largest number of bytes
 * to append
 * Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	int a, i;
+	int c, d;
 
-	a = i = 0;
+	c = d = 0;
 	/* find the lenght */
 
-	while (*(dest + a))
-		a++;
+	while (*(dest + c))
+		c++;
 	/* for loop */
-	while (i < n && *(src + i))
+	while (d < n && *(src + d))
 	{
-		*(dest + a) = *(src + i);
-		a++;
-		i++;
+		*(dest + c) = *(src + d);
+		c++;
+		d++;
 	}
-	if (i < n)
-	*(dest + a) = *(src +i);
+	if (d < n)
+	*(dest + c) = *(src + d);
 	return (dest);
 }
