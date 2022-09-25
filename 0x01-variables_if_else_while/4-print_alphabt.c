@@ -12,21 +12,19 @@
 int main(void)
 {
 	/*
-	 * Define our char ch
-	 */
+	* Define our char ch
+	*/
 	char ch;
 
 	/*
-	 * our while loop
-	 */
-	for (ch = 'a'; ch <= 'z'; ch++)
-		/*
-		 * confir
-		 */
+	* our while loop
+	*/
+	for (ch = 'a'; ch <= 'Z'; ch++)
+	{
 		if (ch != 'q' && ch != 'e')
-		/*
-		* print if true
-		*/
+			putchar(ch);
+	}
+
 	putchar('\n');
 	return (0);
 }
