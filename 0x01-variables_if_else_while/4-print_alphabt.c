@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main-This is where our code begins
+ * main-This is where our code starts
  * @void-means our main has no argument
  * Return: zero
  */
