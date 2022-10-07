@@ -11,7 +11,7 @@ int main(void)
 	* Declare our counter
 	*/
 	int i;
-	
+
 	/*
 	* loop
 	*/
