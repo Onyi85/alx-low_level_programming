@@ -1,4 +1,4 @@
-/*this program print the sign of a number*/
+/* this program print the sign of a number*/
 #include <unistd.h>
 #include "main.h"
 #include <ctype.h>
