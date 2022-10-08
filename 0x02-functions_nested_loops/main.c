@@ -1,25 +1,22 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * @void: means our main has no argument
- * Return: zero
- */
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *     */
 int main(void)
 {
-	/*
-	 * invoking print_alphabet function
-	 */
+	int r;
 
-
-	print_alphabet();
-	print_to_98(0);
-	print_to_98(98);
-	print_to_98(111);
-	print_to_98(81);
-	print_to_98(-10);
+	r = _abs(-1);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n", r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-98);
+	printf("%d\n", r);
 	return (0);
 }
-
