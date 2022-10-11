@@ -14,7 +14,7 @@ int main(void)
 	 * declare our loop variable
 	 */
 	char ch;
-	
+
 	/*
 	 * loop
 	 */
