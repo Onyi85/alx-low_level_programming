@@ -26,7 +26,7 @@ int main(void)
 		putchar(ch + '0');
 		/*
 		 * check if condition is true
-		 */ 
+		 */
 
 		if (ch <= 8)
 		{
@@ -34,7 +34,7 @@ int main(void)
 			 * print comma and space
 			 */
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
