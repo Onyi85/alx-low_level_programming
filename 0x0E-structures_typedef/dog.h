@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struck dog - this structure provides a dog description
+ * struct dog - this structure provides a dog description
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
