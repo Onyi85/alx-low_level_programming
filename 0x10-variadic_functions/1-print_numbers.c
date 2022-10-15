@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	if (separator == NULL)
 		return;
 
-	if (separator[0] != ',' || separator[1] != ' ')
+	if ((separator[0] != ',' || separator[0] != ';') && (separator[1] != ' '))
 		printf("%c, ", *separator);
 	for (i = 1; i <= n; i++)
 	{
