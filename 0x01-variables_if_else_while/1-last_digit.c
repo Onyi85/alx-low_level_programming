@@ -1,4 +1,3 @@
-/*this is about last digit*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -25,7 +24,7 @@ int main(void)
 		/*
 		 * if true: display this message
 		 */
-		printf("last digit of %d is %d and is greater than 5\n", n, a);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	/*
 	 * check if a is 0
 	 */
@@ -33,7 +32,7 @@ int main(void)
 		/*
 		*Display if true
 		*/
-		printf("last digit of %d is %d and is 0\n", n, a);
+		printf("Last digit of %d is %d and is 0\n", n, a);
 	/*
 	 * otherwise it is something else
 	 */
@@ -41,7 +40,8 @@ int main(void)
 		/*
 		* if true: display this message
 		*/
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, a);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
+n, a);
 
 	return (0);
 }
