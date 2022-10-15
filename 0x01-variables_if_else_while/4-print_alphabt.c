@@ -19,7 +19,7 @@ int main(void)
 	/*
 	* our while loop
 	*/
-	for (ch = 'a'; ch <= 'Z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'q' && ch != 'e')
 			putchar(ch);
