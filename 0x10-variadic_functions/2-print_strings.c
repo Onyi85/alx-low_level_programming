@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include <stdarg.h>
 /**
- * print_string - this function prints string in a variadic function
+ * print_strings - this function prints string in a variadic function
  * @separator: litral string
  * @n: unsigned (no nagative) int
  * ...: ellipsis
