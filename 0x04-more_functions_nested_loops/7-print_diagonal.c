@@ -1,28 +1,27 @@
+/*this a function that draws a diagonal line*/
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_diagonal-prints diagonal
- * stuff
- * @n: integer to set diagonal
+ * print_diagonal - checks for digit
+ * @n: number of \\ to be printed
+ * Return: void
  */
 void print_diagonal(int n)
 {
-	int i;
-	int j;
+	int i = 0, ii;
 
-	if (n <= 0)
+	while (i < n && n > 0)
 	{
-		_putchar('\n');
-	} else
-	{
-		for (i = 0; i < n; i++)
+		ii = 0;
+		while (ii < i)
 		{
-			for (j = 0; j < i; j++)
-			{
-				_putchar('');
-			}
-			_putchar('\\');
-			_putchar('\n');
+			_putchar(' ');
+			ii++;
 		}
+		_putchar('\\');
+		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
 }
