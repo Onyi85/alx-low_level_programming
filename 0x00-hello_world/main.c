@@ -7,5 +7,6 @@
  *     */
 int main(void)
 {
-	    return (0);
+	puts("Benjamin is doing it day by day");
+	return (0);
 }

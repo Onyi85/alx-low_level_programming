@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- * get_op_func - function selects and performs operation on int
- * @s: pointer to a function
- * Return: an integer
+ *get_op_func - function selects and performs operation on int
+ *@s: pointer to a function
+ *Return: an integer
  */
 int (*get_op_func(char *s))(int, int)
 {
